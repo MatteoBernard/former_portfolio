@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../resources/css/app.css">
+    <script src="resources/js/navbar-burger.js"></script>
+    <title>OWLdle</title>
+</head>
+<body class="background-image">
+    
+<nav class="navbar is-fixed-top">
+    <div class="navbar-brand">
+        <div class="navbar-start">
+            <a class="navbar-item" href="../index.html">
+                <img src="../resources/images/stuff/home.png" alt="uk">
+            </a>
+        </div>
+
+        <a role="button" class="navbar-burger burger">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu is-hidden-tablet-only is-hidden-mobile">
+
+        <div class="navbar-content">
+            <a class="navbar-item" href="../apropos.html">
+                À propos de moi
+            </a>
+            <a class="navbar-item"  href="../competences.html">
+                Mes compétences
+            </a>
+            <a class="navbar-item" href="../projets.html">
+                Mes projets
+            </a>
+
+        </div>
+
+        <div class="navbar-end">
+            <a class="navbar-item" href="../en/projects/owldle.html">
+                <img src="../resources/images/stuff/uk.jpg" alt="uk">
+            </a>
+        </div>
+    </div>
+</nav>
+
+    <section class="section">
+        <div class="container is-center projs page_proj">
+            <h2 class="title is-2">OWLdle</h2>
+            <div class="entete_projet">
+                <figure>
+                    <img src="../resources/images/logos/overwatch-emblem.png" alt="owldle">
+                </figure>
+                <div>
+                    <p><strong>Date : </strong>septembre 2022.</p>
+                    <p><strong>Durée : </strong>1 semaine.</p>
+                    <p><strong>Description : </strong>Projet perso : application en JavaFX, jeu type "Wordle" sur le jeu Overwatch et son esport. Selon les modes, le joueur doit trouver quel est le héros, ou quel est le joueur professionnel d'Overwatch, basé sur des indices.</p>
+                    <a class="voir-plus btn-item" href="https://github.com/MatteoBernard/OWLdle" target="_blank"><img src="../resources/images/logos/github.png" alt="gh"></a>
+                </div>
+            </div>
+
+            <hr class="sep">
+
+            <div class="contenu_projet">
+                <p><strong>Projet :</strong></p>
+                <p>
+                    J'apprécie particulièrement la scène Overwatch. Malheureusement, celle-ci est beaucoup moins
+                    vivante que celle d'autres jeux comme League of Legends, ou Valorant par exemple. J'ai donc décidé
+                    de participer, à mon échelle, à la vie de cette communauté, en créant un petit jeu sur ordinateur.
+                </p>
+                <p>
+                    J'ai réalisé ce projet en Java / JavaFX, afin d'en faire une application de bureau exécutable.
+                    Je me suis aidé de SceneBuilder pour construire les vues, et ai stylisé le tout avec du CSS.
+                </p>
+                <p>
+                    Concernant le stockage des données à deviner, je suis passé par une base de donnée en ligne, MongoDB,
+                    afin d'éviter de devoir re-sortir une version du jeu à chaque transfert de joueur / ajout de nouveau héros.
+                </p>
+                <p>
+                    Le projet se compose pour l'instant de trois vues : une pour l'accueil, et une pour chaque mode de jeu.
+                </p>
+
+                <p><strong>Images du jeu :</strong></p>
+
+                <img src="../resources/images/stuff/owldle1.PNG">
+                <img src="../resources/images/stuff/owldle2.PNG">
+                <img src="../resources/images/stuff/owldle3.PNG">
+            </div>
+
+        </div>
+    </section>
+
+<footer class="footer">
+    <p>
+        © 2023 Bernard Mattéo. Tous droits réservés.
+    </p>
+    <p>
+        Hébergé sur <a href="https://docs.github.com/fr/site-policy/github-terms/github-terms-of-service" target="_blank">Github</a>.
+    </p>
+</footer>
+</body>
+</html>

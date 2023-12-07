@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../resources/css/app.css">
+    <script src="../resources/js/navbar-burger.js"></script>
+    <title>Mastermind</title>
+</head>
+<body class="background-image">
+    
+<nav class="navbar is-fixed-top">
+    <div class="navbar-brand">
+        <div class="navbar-start">
+            <a class="navbar-item" href="../index.html">
+                <img src="../resources/images/stuff/home.png" alt="uk">
+            </a>
+        </div>
+
+        <a role="button" class="navbar-burger burger">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu is-hidden-tablet-only is-hidden-mobile">
+
+        <div class="navbar-content">
+            <a class="navbar-item" href="../apropos.html">
+                À propos de moi
+            </a>
+            <a class="navbar-item"  href="../competences.html">
+                Mes compétences
+            </a>
+            <a class="navbar-item" href="../projets.html">
+                Mes projets
+            </a>
+
+        </div>
+
+        <div class="navbar-end">
+            <a class="navbar-item" href="../en/projects/mastermind.html">
+                <img src="../resources/images/stuff/uk.jpg" alt="uk">
+            </a>
+        </div>
+    </div>
+</nav>
+
+<section class="section">
+    <div class="container is-center projs page_proj">
+        <h2 class="title is-2">Mastermind réseau</h2>
+        <div class="entete_projet">
+            <figure>
+                <img src="../resources/images/logos/mastermind.png" alt="mastermind">
+            </figure>
+            <div>
+                <p><strong>Date : </strong>novembre 2023.</p>
+                <p><strong>Durée : </strong>4h30.</p>
+                <p><strong>Description : </strong>Projet universitaire : reprise du jeu "Mastermind" en Java, avec communication client / serveur, version TCP.</p>
+                <a class="voir-plus btn-item" href="https://github.com/MatteoBernard/mastermind-reseau" target="_blank"><img src="../resources/images/logos/github.png" alt="gh"></a>
+            </div>
+        </div>
+
+        <hr class="sep">
+
+        <div class="contenu_projet">
+            <p><strong>Projet :</strong></p>
+            <p>
+                Ce projet a été réalisé dans le cadre du cours de "Programmation système". Le but était de coder
+                un client et un serveur, et les faire communiquer.
+            </p>
+            <p>
+                Le client et le serveur sont codés en Java, en faisant hériter les deux classes de la classe Thread.
+                Le jeu se déroule de la sorte : le client entre un nombre d'essais maximum, puis il tente de deviner la suite de chiffres
+                générée. Si le chiffre se trouve à la bonne place dans la suite, le serveur lui renvoie le nombre. Si le
+                chiffre se trouve dans la suite, mais à la mauvaise place, le serveur renvoie un "X". Enfin, si le chiffre n'est
+                pas dans la suite, le serveur renvoie un "-".
+            </p>
+
+            <p><strong>Images du projet :</strong></p>
+            <div>
+                <img src="../resources/images/stuff/mastermind1.png">
+                <img src="../resources/images/stuff/mastermind2.png">
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <p>
+        © 2023 Bernard Mattéo. Tous droits réservés.
+    </p>
+    <p>
+        Hébergé sur <a href="https://docs.github.com/fr/site-policy/github-terms/github-terms-of-service" target="_blank">Github</a>.
+    </p>
+</footer>
+</body>
+</html>

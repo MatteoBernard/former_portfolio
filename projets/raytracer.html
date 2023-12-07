@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../resources/css/app.css">
+    <script src="../resources/js/navbar-burger.js"></script>
+    <title>Raytracer</title>
+</head>
+<body class="background-image">
+    
+<nav class="navbar is-fixed-top">
+    <div class="navbar-brand">
+        <div class="navbar-start">
+            <a class="navbar-item" href="../index.html">
+                <img src="../resources/images/stuff/home.png" alt="uk">
+            </a>
+        </div>
+
+        <a role="button" class="navbar-burger burger">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu is-hidden-tablet-only is-hidden-mobile">
+
+        <div class="navbar-content">
+            <a class="navbar-item" href="../apropos.html">
+                À propos de moi
+            </a>
+            <a class="navbar-item"  href="../competences.html">
+                Mes compétences
+            </a>
+            <a class="navbar-item" href="../projets.html">
+                Mes projets
+            </a>
+
+        </div>
+
+        <div class="navbar-end">
+            <a class="navbar-item" href="../en/projects/raytracer.html">
+                <img src="../resources/images/stuff/uk.jpg" alt="uk">
+            </a>
+        </div>
+    </div>
+</nav>
+
+<section class="section">
+    <div class="container is-center projs page_proj">
+        <h2 class="title is-2">Raytracer</h2>
+        <div class="entete_projet">
+            <figure>
+                <img src="../resources/images/logos/raytracing.png" alt="raytracer">
+            </figure>
+            <div>
+                <p><strong>Date : </strong>novembre 2023.</p>
+                <p><strong>Durée : </strong>1 semaine.</p>
+                <p><strong>Description : </strong>Projet universitaire : création d'une librairie de "lanceur de rayons", générant une image, avec différentes formes et lumières, et en ajoutant du raytracing ou non.</p>
+                <a class="voir-plus btn-item" href="https://github.com/MatteoBernard/Raytracer" target="_blank"><img src="../resources/images/logos/github.png" alt="gh"></a>
+            </div>
+        </div>
+
+        <hr class="sep">
+
+        <div class="contenu_projet">
+            <p><strong>Projet :</strong></p>
+            <p>
+                Ce projet a été réalisé dans le cadre de la SAE S3.A.01. Le but était de créer une librairie générant des images avec raytracing.
+                D'abord, il y a lecture d'un fichier descriptif de la scène, en suite, l'image est générée en utilisant différentes méthodes et classes.
+                Enfin, l'image est créée et disponible au téléchargement.
+                Le calcul des pixels se fait par calculs de vecteurs et de points, en prenant en compte la caméra, les lumières et les différentes formes.
+            </p>
+            <p>
+                Le projet a été réalisé en Java. L'implémentation de patrons de conception était centrale : états, singletons, décorateurs, builders..
+            </p>
+            <p>
+                Le fichier de description possède sa propre synthaxe, celui-ci est lu par un Scanner, puis les informations sont retranscrites pour créer l'image.
+            </p>
+
+            <p><strong>Images du projet :</strong></p>
+
+            <img src="../resources/images/stuff/raytracing2.png">
+            <img src="../resources/images/stuff/raytracing1.png">
+
+            <p><strong>Autres membres :</strong></p>
+            <p>DELCAMBRE Jean-Alexis : <a href="https://www.linkedin.com/in/jean-alexis-delcambre/" target="_blank">LinkedIn</a></p>
+            <p>POTEAU Axel : <a href="https://www.linkedin.com/in/axel-poteau/" target="_blank">LinkedIn</a></p>
+            <p>CRAUSER Antoine : <a href="https://www.linkedin.com/in/antoine-crauser/" target="_blank">LinkedIn</a></p>
+
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <p>
+        © 2023 Bernard Mattéo. Tous droits réservés.
+    </p>
+    <p>
+        Hébergé sur <a href="https://docs.github.com/fr/site-policy/github-terms/github-terms-of-service" target="_blank">Github</a>.
+    </p>
+</footer>
+</body>
+</html>
