@@ -269,19 +269,18 @@ a.voir-plus:hover {
 }
 
 .box {
-    height: 520px;
-    max-width: 250px;
+    min-height: 430px;
+    max-width: 300px;
     min-width: 200px;
-    margin: auto;
     display: flex;
+    margin: auto;
     flex-direction: column;
     align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .box.comp {
-    height: 350px;
-    margin: auto;
+    min-width: 250px;
 }
 
 .image {
@@ -441,8 +440,9 @@ p.subtitle {
         max-width: 200px;
     }
 
-    .box {
+    .box.comp {
         height: fit-content;
+        min-width: 200px;
     }
 
     p.title {
