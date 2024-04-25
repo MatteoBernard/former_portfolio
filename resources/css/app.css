@@ -269,17 +269,17 @@ a.voir-plus:hover {
 }
 
 .box {
-    min-height: 430px;
+    min-height: 500px;
+    max-height: 700px;
     max-width: 300px;
     min-width: 200px;
-    display: flex;
     margin: auto;
-    flex-direction: column;
-    align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .box.comp {
+    min-height: 400px;
+    max-height: 500px;
     min-width: 250px;
 }
 
